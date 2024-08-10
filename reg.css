@@ -1,0 +1,11 @@
+#reg{
+    align-self: center;
+    padding: 1em;
+    background-color: #1f1e1e;
+    color: white;
+    
+}
+.table{
+    padding-left: 25em;
+    padding-top: 2em;
+}

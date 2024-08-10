@@ -1,0 +1,120 @@
+header{
+    padding: 15px;
+    color: black;
+    text-align: left;
+    
+}
+a:link {
+   padding: 15px;
+   text-align: center;
+   color: white
+}
+.top{
+    
+    background-color: rgb(165, 163, 167);
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.home{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    /*grid-gap: 50px;
+    grid-auto-rows: minmax(10px, auto);*/
+    padding-left: 80px;
+    padding-top: 20px;
+    padding-right:80px ;
+}
+
+.text{
+    display: grid;
+    grid-template-rows: 0.5fr 1fr;
+    background-color: rgb(143, 141, 141);
+    padding: 50px;
+}
+.login{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 5px;
+    
+}
+.buttons{
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    grid-gap: 5px;
+    align-items: center;
+}
+.nested{
+    display: grid;
+    grid-template-columns:repeat(4, 4fr);
+    padding: 1px;
+    text-align: center;
+}
+#welcome{
+    text-align: center;
+}
+/*.text input{
+    width: 70%;
+}*/
+
+.list{
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    grid-gap: 1em;
+    padding: 8em;
+    text-align: center;
+
+}
+.list > div{
+    padding: 1em;
+}
+#desc{
+    background-color: lightgrey;
+    text-align: center;
+}
+.abt{
+    display: grid;
+    grid-template-columns:1fr 2fr;
+    grid-gap: 1em;
+    padding-left: 5em;
+    padding-right: 8em;
+    padding-top: 5em;
+    text-align: center;
+}
+.abt1{
+    display: grid;
+    grid-template-rows:1fr 2fr;
+    grid-gap: 1em;
+    padding: 4em;
+    text-align: center;
+}
+#cu{
+    background-color: lightgrey;
+    text-align: center;
+    padding: 4em;
+}
+
+#add{
+    margin: 10px;
+
+}
+/*Registration page css*/
+#reg{
+    align-self: center;
+    padding: 1em;
+    background-color: #1f1e1e;
+    color: white;
+    
+}
+.table{
+    padding-left: 25em;
+    padding-top: 2em;
+}
+
+/*addCar page css*/
+.upload{
+    background-color: rgb(255, 255, 255);
+    margin: 100px;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 100px;
+}
